@@ -1,0 +1,16 @@
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 70px;
+    background-color: #363636;
+}
+.title{
+    font-weight: 300;
+    font-size: 30px;
+    color: #fff;
+}
+span{
+    font-weight: 600;
+}

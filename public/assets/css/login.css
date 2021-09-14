@@ -1,0 +1,87 @@
+.container-login{
+    background-color: #fff;
+    width: 280px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #363636;
+}
+.botao-login{
+    margin: 2px 0px;
+    width: 100%;
+    transition: 1s;
+
+}
+.first{
+    margin-top: 10px;
+}
+.botao-login:hover{
+    color: #363636;
+    background: #fff;
+}
+.input-login{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+input[type="email"], input[type="password"], .text-input{
+    width: 220px;
+    margin: 8px 0px;
+    padding: 2px 0px;
+    font-size: 13px;
+    outline: none;
+    border: 0;
+}
+
+.input-border{
+    height: 1px;
+    background: #cfcfcf;
+    transition: .3s ease-in-out;
+}
+.input-border::after{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 0px;
+    margin-bottom: 10px;
+    background: #363636;
+    transition: .3s ease-in-out;
+}
+.effect:focus + .input-border::after{
+    width: 100%;
+}
+.div-form{
+    width: 80%;
+}
+.title-login{
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    width: 100%;
+    text-align: left;
+    position: relative;
+}
+.title-login::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 4px;
+    width: 20px;
+    bottom: -3px;
+    background-color: #363636;
+}
+.options{
+    width: 80%;
+}

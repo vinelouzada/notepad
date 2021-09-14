@@ -1,0 +1,16 @@
+{
+    "name": "vinelouzada/notepad",
+    "description": "a website about notes",
+    "authors": [
+        {
+            "name": "vinelouzada",
+            "email": "vinilouzada7@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Louzada\\NotePad\\":"src/"
+        }
+    },
+    "require": {}
+}
